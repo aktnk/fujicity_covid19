@@ -2,6 +2,8 @@
 
 ![](https://github.com/hiroyuki-ichikawa/fujicity_covid19/blob/development/static/ogp.png)
 
+![OGP Builder](https://github.com/aktnk/fujicity_covid19/workflows/OGP%20Builder/badge.svg) ![reviewdog](https://github.com/aktnk/fujicity_covid19/workflows/reviewdog/badge.svg) ![develop](https://github.com/aktnk/fujicity_covid19/workflows/development%20deploy/badge.svg)
+
 ## 貢献の仕方
 Issues にあるいろいろな修正にご協力いただけると嬉しいです。
 
