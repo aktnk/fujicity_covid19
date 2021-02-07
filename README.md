@@ -1,6 +1,8 @@
 # 富士市 新型コロナウイルス感染症対策サイト
 
-![](https://github.com/hiroyuki-ichikawa/covid19/blob/development/static/ogp.png)
+![](https://github.com/hiroyuki-ichikawa/fujicity_covid19/blob/development/static/ogp.png)
+
+![OGP Builder](https://github.com/aktnk/fujicity_covid19/workflows/OGP%20Builder/badge.svg) ![reviewdog](https://github.com/aktnk/fujicity_covid19/workflows/reviewdog/badge.svg) ![develop](https://github.com/aktnk/fujicity_covid19/workflows/development%20deploy/badge.svg)
 
 ## 貢献の仕方
 Issues にあるいろいろな修正にご協力いただけると嬉しいです。
@@ -80,9 +82,9 @@ $ docker-compose run --rm app yarn install
 
 ### ステージング・本番環境への反映
 
-`master` ブランチがアップデートされると、自動的に `production` ブランチにHTML類がbuildされます。そして、本番サイト https://stopcovid19-fuji.netlify.com/ が更新されます。
+`master` ブランチがアップデートされると、自動的に `production` ブランチにHTML類がbuildされます。そして、本番サイト https://stopcovid19-shizuoka.netlify.com/ が更新されます。
 
-`development` ブランチがアップデートされると、自動的に `dev-pages` ブランチにHTML類がbuildされます。そして、開発用サイト https://stopcovid19-fuji-dev.netlify.app/ が更新されます。
+`development` ブランチがアップデートされると、自動的に `dev-pages` ブランチにHTML類がbuildされます。そして、開発用サイト https://stopcovid19-shizuoka-dev.netlify.com/ が更新されます。
 
 ### ブランチルール
 
